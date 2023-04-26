@@ -1,0 +1,97 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+nav{
+   height: 10%;
+   width: 100%;
+   border-bottom: solid 2px rgba($color: #000000, $alpha: 0.5);
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 320px);
+    grid-auto-rows: minmax(210px, auto);
+    justify-content: center;
+}
+
+.grid-item{
+    grid-column: span 2;
+    text-align: center;
+}
+
+.grid-item-1, .grid-item-2, .grid-item-3{
+  border-bottom: solid 2px rgba($color: #000000, $alpha: 0.5);
+}
+
+.grid-item-7{
+  grid-column: span 3;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-item-8{
+  grid-column: span 3;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title{
+    font-size: xxx-large;
+    margin-top: 100px;
+}
+.img-draven-page-1{
+  width: 90%;
+  height: 90%;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
