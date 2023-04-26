@@ -16,14 +16,14 @@ button {
   width: 100px;
   height: 50px;
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: 1vw;
   font-size: x-large;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(6, 320px);
+  grid-template-columns: repeat(6, 17vw);
   grid-auto-rows: minmax(210px, auto);
   justify-content: center;
 }
@@ -39,13 +39,13 @@ button {
 
 .grid-item-7 {
   grid-column: span 3;
-  font-size: x-large;
+  font-size: large;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .grid-item-8 {
   grid-column: span 3;
-  font-size: x-large;
+  font-size: large;
   font-family: Arial, Helvetica, sans-serif;
 }
 
