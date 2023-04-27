@@ -6,3 +6,7 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+  function openAbilityQ() {
+    document.getElementById("AbilityQ").style.width = "300px";
+  }
