@@ -51,22 +51,61 @@ section{
 .A-Q,.A-W,.A-E,.A-R{
   margin-left: 50%;
   width: 80px;
-  height: 75px;
+  height: 64px;
 }
 
 .space-1{
   grid-column: span 8;
 }
 
-.AbilitiyQ{
-  
+#AbilityQ{
+  position: absolute;
+  width: 500px;
+  height: 165px;
+  z-index: 1;
+  margin-top: 40px;
+  margin-left: 300px;
+  border: solid 2px rgba($color: #000000, $alpha: 0.5);
+  background-color: white;
+}
+
+#AbilityW{
+  position: absolute;
+  width: 500px;
+  height: 165px;
+  margin-top: 40px;
+  margin-left: 300px;
+  border: solid 2px rgba($color: #000000, $alpha: 0.5);
+  background-color: white;
+}
+
+
+#AbilityE{
+  position: absolute;
+  width: 500px;
+  height: 165px;
+  margin-top: 40px;
+  margin-left: 300px;
+  border: solid 2px rgba($color: #000000, $alpha: 0.5);
+  background-color: white;
+}
+
+
+#AbilityR{
+  position: absolute;
+  width: 500px;
+  height: 165px;
+  margin-top: 40px;
+  margin-left: 300px;
+  border: solid 2px rgba($color: #000000, $alpha: 0.5);
+  background-color: white;
 }
 
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
+    z-index: 2; /* Stay on top */
     top: 0; /* Stay at the top */
     left: 0;
     background-color: #111; /* Black*/
