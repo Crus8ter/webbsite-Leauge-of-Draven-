@@ -23,7 +23,7 @@ button{
 
 .grid-container{
     display: grid;
-    grid-template-columns: repeat(6, 17vw); 
+    grid-template-columns: repeat(6, 16.66vw); 
     grid-auto-rows: minmax(210px, auto);
     justify-content: center;
 }
