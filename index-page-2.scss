@@ -2,14 +2,14 @@ html, body{
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background-color: white;
+    background-color: #090936;
     overflow-x: hidden;
 }
 
 nav{
     height: 10%;
     width: 100%;
-    border-bottom: solid 2px rgba($color: #000000, $alpha: 0.5);
+    border-bottom: solid 2px rgba($color: #b49e9e, $alpha: 0.5);
  }
 
 #menu{
@@ -25,19 +25,19 @@ section{
   display: grid;
   grid-template-columns:repeat(8, auto);
   grid-auto-rows: minmax(150px, auto);
-  
   gap: 5px;
 }
 
 .grid-item{
   display: grid;
   place-content: center;
-  background-color: #818181;
 }
 
 .Abilitie{
   text-align: center;
   width: 80px;
+  transition: 0.2s;
+  border: double #b49e9e 4px;
 }
 
 .Abilitie:hover {
@@ -45,11 +45,13 @@ section{
 }
 
 .Abilitie-Video{
-  grid-column: span 4;
+  margin-left:-900px;
+  grid-column: span 2;
+  grid-row: span 3;
 }
 
 .A-Q,.A-W,.A-E,.A-R{
-  margin-left: 50%;
+  margin-left: 300px;
   width: 80px;
   height: 64px;
 }
@@ -58,47 +60,56 @@ section{
   grid-column: span 8;
 }
 
+.space-2{
+  grid-column: span 6;
+  grid-row: span 1;
+}
+
 #AbilityQ{
   position: absolute;
-  width: 500px;
-  height: 165px;
+  width: 700px;
+  height: 200px;
   z-index: 1;
-  margin-top: 40px;
-  margin-left: 300px;
-  border: solid 2px rgba($color: #000000, $alpha: 0.5);
-  background-color: white;
+  margin-top: -300px;
+  margin-left: 250px;
+  border: double  4px rgba($color: #b49e9e, $alpha: 0.5);
+  background-color: #090936;
+  color: #b49e9e;
 }
 
 #AbilityW{
   position: absolute;
-  width: 500px;
-  height: 165px;
-  margin-top: 40px;
-  margin-left: 300px;
-  border: solid 2px rgba($color: #000000, $alpha: 0.5);
-  background-color: white;
+  width: 700px;
+  height: 200px;
+  margin-top: -300px;
+  margin-left: 250px;
+  border: double  4px rgba($color: #b49e9e, $alpha: 0.5);
+  background-color: #090936;
+  color: #b49e9e;
 }
 
 
 #AbilityE{
   position: absolute;
-  width: 500px;
-  height: 165px;
-  margin-top: 40px;
-  margin-left: 300px;
-  border: solid 2px rgba($color: #000000, $alpha: 0.5);
-  background-color: white;
+  width: 700px;
+  height: 200px;
+  margin-top: -300px;
+  margin-left: 250px;
+  border: double  4px rgba($color: #b49e9e, $alpha: 0.5);
+  background-color: #090936;
+  color: #b49e9e;
 }
 
 
 #AbilityR{
   position: absolute;
-  width: 500px;
-  height: 165px;
-  margin-top: 40px;
-  margin-left: 300px;
-  border: solid 2px rgba($color: #000000, $alpha: 0.5);
-  background-color: white;
+  width: 700px;
+  height: 200px;
+  margin-top: -300px;
+  margin-left: 250px;
+  border: double 4px rgba($color: #b49e9e, $alpha: 0.5);
+  background-color: #090936;
+  color:#b49e9e   ;
 }
 
 .sidenav {

@@ -21,57 +21,17 @@ button {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.grid-container {
+.main {
   display: grid;
-  grid-template-columns: repeat(6, 16.66vw);
-  grid-auto-rows: minmax(210px, auto);
-  justify-content: center;
-}
-
-.grid-item {
-  grid-column: span 2;
+  grid-template-columns: 100%;
   text-align: center;
-}
-
-.grid-item-1, .grid-item-2, .grid-item-3 {
-  border-bottom: solid 2px rgba(180, 158, 158, 0.5);
-}
-
-#title {
-  color: #b49e9e;
-}
-
-.grid-item-7 {
-  grid-column: span 3;
-  font-size: large;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #b49e9e;
-}
-
-.grid-item-8 {
-  grid-column: span 3;
-  font-size: large;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #b49e9e;
-}
-
-#title {
-  font-size: xxx-large;
-  margin-top: 100px;
-}
-
-.img-draven-page-1 {
-  width: 90%;
-  height: 90%;
-  margin-left: 30px;
-  margin-top: 15px;
 }
 
 .sidenav {
   height: 100%; /* 100% Full-height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  z-index: 2; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
   background-color: #111; /* Black*/
@@ -101,4 +61,4 @@ button {
   right: 25px;
   font-size: 36px;
   margin-left: 50px;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index-page-3.css.map */

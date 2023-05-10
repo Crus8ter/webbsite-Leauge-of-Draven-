@@ -16,27 +16,28 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="index.html">About page</a>
             <a href="index-page-2.html">Abilities</a>
-            <a href="#">statistics</a>  
+            <a href="index-page-3.html">statistics</a>  
         </div>
         <button onclick="openNav()" id="menu">Menu</button>
     </nav>
     <div class="main">
        <section>
         <div class="grid-item space-1"></div>
-        <button onclick="openAbilityQ()" class="grid-item  A-Q">
-            <img src="DravenSpinning.png" alt="DravenSpinning" class="Abilitie">
+        <button onclick="openAbilityQ()" class="grid-item  A-Q" id="ability-Q">
+            <img src="DravenSpinning.png" alt="DravenSpinning" class="Abilitie" style="width:120px;">
         </button>
-        <button onclick="openAbilityW()" class="grid-item  A-W">
-            <img src="DravenFury.png" alt="DravenFury" class="Abilitie">
+        <button onclick="openAbilityW()" class="grid-item  A-W" id="ability-W">
+            <img src="DravenFury.png" alt="DravenFury" class="Abilitie" style="width:120px;">
         </button>
-        <button onclick="openAbilityE()" class="grid-item  A-E">
-            <img src="DravenDoubleShot.png" alt="DravenDoubleShot" class="Abilitie">
-        </dbuttoniv>
-        <button onclick="openAbilityR()" class="grid-item  A-R">
-            <img src="DravenRCast.png" alt="DravenRCast" class="Abilitie" button>
+        <button onclick="openAbilityE()" class="grid-item  A-E" id="ability-E">
+            <img src="DravenDoubleShot.png" alt="DravenDoubleShot" class="Abilitie" style="width:120px;">
         </button>
+        <button onclick="openAbilityR()" class="grid-item  A-R" id="ability-R">
+            <img src="DravenRCast.png" alt="DravenRCast" class="Abilitie" style="width:120px;">
+        </button>
+        <div class="grid-item space-2"></div>
         <div class="grid-item Abilitie-Video">
-            
+            <video id="video" controls="none" autoplay loop muted style="pointer-events: none;" width="750" height="450" src="https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_Q1.webm"></video>
         </div>
        </section>
     </div>
@@ -57,6 +58,7 @@
         <p>Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction. Executes enemies who have less health than Draven's number of Adoration stacks.</p>
     </article>
     <script src="script.js"></script>
+    <script src="video.js"></script>
 
 </body>
 </html>
